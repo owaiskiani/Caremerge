@@ -1,0 +1,13 @@
+{
+    "name": "caremerge",
+    "version": "0.0.1",
+    "description": "caremerge test",
+    "author": "Owais Ramzan",
+    "dependencies": {
+        "async": "latest",
+        "express": "latest",
+        "cheerio": "latest",
+        "q": "latest",
+        "ejs": "latest"
+    }
+}
