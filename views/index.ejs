@@ -1,0 +1,19 @@
+<html>
+    <head>
+            <title>Display Title</title>
+    </head>
+    <body>
+        <h1> Following are the titles of given websites: </h1>
+        <ul>
+            <% if (list.length > 0) { %>
+                <% for(var i=0; i<list.length; i++) {%>
+                    <% if(list[i]) {%>
+                        <li><%= list[i] %></li>
+                    <% } %>
+                <% } %>
+            <% } else { %>
+                <li><%= message %></li></li>
+            <% } %>
+        </ul>    
+    </body>
+</html>
